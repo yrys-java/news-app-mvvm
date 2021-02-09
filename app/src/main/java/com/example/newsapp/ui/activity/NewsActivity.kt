@@ -12,7 +12,7 @@ import kotlinx.android.synthetic.main.activity_news.*
 
 class NewsActivity : AppCompatActivity() {
 
-    val test: Int = 8
+    val test: Int = 10
 
     lateinit var viewModel: NewsViewModel
 
