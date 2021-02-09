@@ -25,6 +25,8 @@ class NewsViewModel(
     val newsRepository: NewsRepository
 ) : AndroidViewModel(app) {
 
+    val count = 1
+
     val breakingNews: MutableLiveData<Resource<NewsResponse>> = MutableLiveData()
     var breakingNewsPage = 1
     var breakingNewsResponse: NewsResponse? = null
